@@ -11,15 +11,15 @@
 <link rel="index" title="Index" href="../../genindex/" /><link rel="search" title="Search" href="../../search/" /><link rel="next" title="Gymnasium Basics" href="../../tutorials/gymnasium_basics/" /><link rel="prev" title="Atari" href="../atari/" />
         <link rel="canonical" href="https://gymnasium.farama.org/environments/third_party_environments.html" />
 
-    <link rel="shortcut icon" href="../../_static/favicon.png"/><!-- Generated with Sphinx 7.4.7 and Furo 2023.08.19.dev1 -->
+    <link rel="shortcut icon" href="../../_static/favicon.png"/><!-- Generated with Sphinx 7.4.7 and Celshast 0.0.1 -->
         <title>External Environments - Gymnasium Documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=8f2a1f02" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=5b1a364e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/celshast.css?v=9fbfb63d" />
     <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=61a4c737" />
     <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
     <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
     <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=82c8b628" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/celshast-extensions.css?v=42bfddca" />
     
     
 
@@ -498,6 +498,11 @@ goal-RL (<a class="reference external" href="https://robotics.farama.org/">Gymna
 <p><img alt="Gymnasium version dependency" src="https://img.shields.io/badge/Gymnasium-v0.29.0-blue" />
 <img alt="GitHub stars" src="https://img.shields.io/github/stars/aisystems-lab/wildfire-env" /></p>
 <p>A Gymnasium-compatible wildfire simulation environment that models fire spread using physics-based dynamics and incorporates helicopter firefighting strategies. It’s built on real terrain data, including land cover and elevation, and supports customizable observation and reward wrappers.</p>
+</li>
+<li><p><a class="reference external" href="https://github.com/Tyronita/ignis">Ignis: 3D Structural &amp; Wildfire Fire Suppression</a></p>
+<p><img alt="Gymnasium version dependency" src="https://img.shields.io/badge/Gymnasium-v1.0.0-blue" />
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/Tyronita/ignis" /></p>
+<p>A Gymnasium environment for fire suppression that extends cellular-automaton wildfire RL to 3D indoor / structural fire. A single JSON scene config (geometry, obstacles, materials, ignition, budgets) defines the world; <code class="docutils literal notranslate"><span class="pre">Ignis-Indoor-v0</span></code> operates zoned ceiling sprinklers to contain a fire spreading through a 3D voxel building, while <code class="docutils literal notranslate"><span class="pre">Ignis-Wildfire-v0</span></code> is a 2D wildfire air-tanker variant. It is pure-NumPy and CPU-only, ships CEM and PPO baselines, and includes evacuation and safe-building-design tooling.</p>
 </li>
 </ul>
 </section>
@@ -1019,7 +1024,7 @@ Many of these can be adapted to work with gymnasium (see <a class="reference ext
     <script src="../../_static/documentation_options.js?v=0559ecf3"></script>
     <script src="../../_static/doctools.js?v=9a2dae69"></script>
     <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../../_static/scripts/furo.js?v=7660844c"></script>
+    <script src="../../_static/scripts/celshast.js?v=a788a8c6"></script>
     
     <script>
 
